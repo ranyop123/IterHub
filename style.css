@@ -490,6 +490,25 @@ body {
     }
 }
 
+/* View Notes Button */
+.view-btn {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 18px;
+background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+color: #000;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+border-radius: 25px;
+transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+transform: translateY(-2px);
+box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+}
+
 @media (max-width: 480px) {
     .hero {
         padding: 120px 20px 80px;
